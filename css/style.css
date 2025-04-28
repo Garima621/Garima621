@@ -90,9 +90,9 @@ img {
 	vertical-align: middle;
 }
 
-ul {
+/* ul {
 	list-style: none;
-}
+} */
 
 section {
 	background-color: var(--white-alpha-25);
@@ -516,8 +516,11 @@ Header Section
 .header.active .nav {
 	visibility: visible;
 }
-
+.nav-inner ul{
+	list-style: none;
+}
 .header .nav-inner {
+	
 	min-height: calc(100vh - 10vh);
 	max-width: 1200px;
 	margin: auto;
@@ -1024,4 +1027,4 @@ Responsive
 	.pp-header h3 {
 		font-size: 20px;
 	}
-}
+	}
